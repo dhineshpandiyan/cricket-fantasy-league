@@ -1,0 +1,17 @@
+
+.message {
+    display: flex;
+    alignItems: center;
+}
+.icon {
+    fontSize: 20;
+}
+.error {
+    color: darkred;
+}
+.information {
+    color: white;
+}
+.warning {
+    color: yellow;
+}

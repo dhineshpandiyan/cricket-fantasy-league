@@ -1,0 +1,57 @@
+[
+  {
+    "_id": "pak-player-1",
+    "name": "Sarfaraz Ahmed",
+    "specializedIn": ["Wicket-keeper"]
+  },
+  {
+    "_id": "pak-player-2",
+    "name": "Mohammad Amir",
+    "specializedIn": ["Bowler"]
+  },
+  {
+    "_id": "pak-player-3",
+    "name": "Mohammad Hafeez",
+    "specializedIn": ["All-rounder"]
+  },
+  {
+    "_id": "pak-player-4",
+    "name": "Shoaib Malik",
+    "specializedIn": ["All-rounder"]
+  },
+  {
+    "_id": "pak-player-5",
+    "name": "Babar Azam",
+    "specializedIn": ["Batsman"]
+  },
+  {
+    "_id": "pak-player-6",
+    "name": "Fakhar Zaman",
+    "specializedIn": ["Batsman"]
+  },
+  {
+    "_id": "pak-player-7",
+    "name": "Asif Ali",
+    "specializedIn": ["Batsman"]
+  },
+  {
+    "_id": "pak-player-8",
+    "name": "Imam-ul-Haq",
+    "specializedIn": ["Batsman"]
+  },
+  {
+    "_id": "pak-player-9",
+    "name": "Hasan Ali",
+    "specializedIn": ["Bowler"]
+  },
+  {
+    "_id": "pak-player-10",
+    "name": "Shadab Khan",
+    "specializedIn": ["All-rounder"]
+  },
+  {
+    "_id": "pak-player-11",
+    "name": "Wahab Riaz",
+    "specializedIn": ["Bowler"]
+  }
+]

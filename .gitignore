@@ -1,0 +1,15 @@
+node_modules/
+dist/
+.idea/
+npm-debug.log*
+.DS_Store
+*.orig
+.tags
+.tags1
+spec/coverage/
+spec/reports
+!spec/reports/.gitkeep
+!spec/coverage/.gitkeep
+.coverage/
+.nyc_output
+.babel.json

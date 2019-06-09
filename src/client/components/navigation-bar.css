@@ -1,0 +1,13 @@
+.root {
+  flexGrow: 1;
+}
+.menuButton {
+  marginRight: true;
+}
+.title {
+  flexGrow: 1;
+}
+.toolbarButtons {
+  marginLeft: "auto";
+  marginRight: -12;
+}

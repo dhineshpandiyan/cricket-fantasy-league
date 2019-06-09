@@ -1,0 +1,57 @@
+[
+  {
+    "_id": "ind-player-1",
+    "name": "Virat Kohli",
+    "specializedIn": ["Batsman"]
+  },
+  {
+    "_id": "ind-player-2",
+    "name": "MS Dhoni",
+    "specializedIn": ["Wicket-keeper"]
+  },
+  {
+    "_id": "ind-player-3",
+    "name": "Rohit Sharma",
+    "specializedIn": ["Batsman"]
+  },
+  {
+    "_id": "ind-player-4",
+    "name": "K. L. Rahul",
+    "specializedIn": ["Wicket-keeper"]
+  },
+  {
+    "_id": "ind-player-5",
+    "name": "Hardik Pandya",
+    "specializedIn": ["All-rounder"]
+  },
+  {
+    "_id": "ind-player-6",
+    "name": "Jasprit Bumrah",
+    "specializedIn": ["Bowler"]
+  },
+  {
+    "_id": "ind-player-7",
+    "name": "Shikhar Dhawan",
+    "specializedIn": ["Batsman"]
+  },
+  {
+    "_id": "ind-player-8",
+    "name": "Ravindra Jadeja",
+    "specializedIn": ["All-rounder"]
+  },
+  {
+    "_id": "ind-player-9",
+    "name": "Dinesh Karthik",
+    "specializedIn": ["Wicket-keeper"]
+  },
+  {
+    "_id": "ind-player-10",
+    "name": "Mohammed Shami",
+    "specializedIn": ["Bowler"]
+  },
+  {
+    "_id": "ind-player-11",
+    "name": "Bhuvneshwar Kumar",
+    "specializedIn": ["Bowler"]
+  }
+]

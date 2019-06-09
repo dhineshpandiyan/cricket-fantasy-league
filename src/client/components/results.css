@@ -1,0 +1,13 @@
+.results {
+    padding: 25px;
+}
+.match-selection {
+    display: flex;
+}
+.match-selector {
+    width: 500px;
+    padding: 10px;
+}
+.match-selection-text {
+    padding: 20px;
+}

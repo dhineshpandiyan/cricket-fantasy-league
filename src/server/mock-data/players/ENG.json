@@ -1,0 +1,57 @@
+[
+  {
+    "_id": "eng-player-1",
+    "name": "Joe Root",
+    "specializedIn": ["Batsman"]
+  },
+  {
+    "_id": "eng-player-2",
+    "name": "Jos Buttler",
+    "specializedIn": ["Wicket-keeper"]
+  },
+  {
+    "_id": "eng-player-3",
+    "name": "Moeen Ali",
+    "specializedIn": ["All-rounder"]
+  },
+  {
+    "_id": "eng-player-4",
+    "name": "Ben Stokes",
+    "specializedIn": ["All-rounder"]
+  },
+  {
+    "_id": "eng-player-5",
+    "name": "Jofra Archer",
+    "specializedIn": ["Bowler"]
+  },
+  {
+    "_id": "eng-player-6",
+    "name": "Eoin Morgan",
+    "specializedIn": ["Batsman"]
+  },
+  {
+    "_id": "eng-player-7",
+    "name": "Jonny Bairstow",
+    "specializedIn": ["Wicket-keeper"]
+  },
+  {
+    "_id": "eng-player-8",
+    "name": "Adil Rashid",
+    "specializedIn": ["Bowler"]
+  },
+  {
+    "_id": "eng-player-9",
+    "name": "Chris Woakes",
+    "specializedIn": ["Bowler"]
+  },
+  {
+    "_id": "eng-player-10",
+    "name": "Tom Curran",
+    "specializedIn": ["All-rounder"]
+  },
+  {
+    "_id": "eng-player-11",
+    "name": "Jason Roy",
+    "specializedIn": ["Batsman"]
+  }
+]
