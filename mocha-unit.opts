@@ -1,0 +1,7 @@
+--reporter mocha-multi
+--bail
+--recursive
+--reporter-options spec=-,xunit=spec/reports/junit/unit-test-results.xml
+--require mocha-junit
+--timeout 200000
+spec/server

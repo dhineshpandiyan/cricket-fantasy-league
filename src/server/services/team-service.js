@@ -15,16 +15,16 @@ function getPlayersByMatchId(matchId) {
 function buildTeam(userId, name, matchId, players = []) {
   const { startsAt } = dataAccess.getMatchById(matchId);
 
-  if (moment(startsAt).valueOf() <= moment.valueOf()) {
+  if (moment(startsAt).valueOf() <= moment().valueOf()) {
     return utils.prepareErrorResponse(403, 'You are not allowed to edit players after match starts');
   }
   if (players.length > 11) {
     return utils.prepareErrorResponse(400, 'Number of players should not exceed 11');
   }
   const allowedPrayersSet = new Set(getPlayersByMatchId(matchId).map(player => player._id));
-  const hasInvalidPlayers = players.every(player => allowedPrayersSet.has(player._id));
+  const isValidPlayers = players.every(player => allowedPrayersSet.has(player._id));
 
-  if (hasInvalidPlayers) {
+  if (!isValidPlayers) {
     return utils.prepareErrorResponse(400, 'Players list has some invalid players');
   }
   dataAccess.saveTeam(userId, name, matchId, players);
