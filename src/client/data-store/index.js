@@ -21,9 +21,14 @@ function _fetch(url, callback = () => {}) {
       if (response.status === 200) {
         return response.data;
       }
-      callback(response.data);
+      callback(response.data.error);
     })
-    .catch(callback);
+    .catch(err => {
+      if (err.response.data && err.response.data.error) {
+        callback(err.response.data.error);
+      }
+      callback(err.toJSON());
+    });
 }
 
 function _fetchMatches() {
@@ -82,9 +87,14 @@ function saveTeam(data, callback = () => {}) {
       if (response.status === 200) {
         return callback(null, response.data);
       }
-      callback(response.data);
+      callback(response.data.error);
     })
-    .catch(callback);
+    .catch(err => {
+      if (err.response.data && err.response.data.error) {
+        return callback(err.response.data.error);
+      }
+      callback(err.toJSON());
+    });
 }
 
 function setCurrentMatchIdForManageTeam(matchId) {

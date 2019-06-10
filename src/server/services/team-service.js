@@ -22,9 +22,9 @@ function buildTeam(userId, name, matchId, players = []) {
     return utils.prepareErrorResponse(400, 'Number of players should not exceed 11');
   }
   const allowedPrayersSet = new Set(getPlayersByMatchId(matchId).map(player => player._id));
-  const isValidPlayers = players.every(player => allowedPrayersSet.has(player._id));
+  const hasValidPlayers = players.every(player => allowedPrayersSet.has(player));
 
-  if (!isValidPlayers) {
+  if (!hasValidPlayers) {
     return utils.prepareErrorResponse(400, 'Players list has some invalid players');
   }
   dataAccess.saveTeam(userId, name, matchId, players);

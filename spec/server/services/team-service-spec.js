@@ -93,7 +93,7 @@ describe('Team Service', () => {
     });
 
 
-    const results = teamService.buildTeam('foo-user-id', 'foo-user-name', 1, [{ _id: 'player-1'}, { _id: 'player-5'}]);
+    const results = teamService.buildTeam('foo-user-id', 'foo-user-name', 1, ['player-1', 'player-5']);
 
     expect(results).eql({
       error: {
@@ -117,7 +117,7 @@ describe('Team Service', () => {
     dataAccess.saveTeam = sinon.spy();
 
 
-    const results = teamService.buildTeam('foo-user-id', 'foo-user-name', 1, [{ _id: 'player-1'}, { _id: 'player-2'}]);
+    const results = teamService.buildTeam('foo-user-id', 'foo-user-name', 1, ['player-1', 'player-2']);
 
     expect(dataAccess.saveTeam.called).to.be.true;
   });

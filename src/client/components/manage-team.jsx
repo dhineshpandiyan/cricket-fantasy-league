@@ -77,9 +77,8 @@ export default class ManageTeam extends Component {
     const { currentMatchId, myTeamPlayers: { players } } = this.props.team || {};
     const payload = { matchId: currentMatchId, players: Array.from(players) };
 
-    Actions.manageTeamAction.saveTeam(payload, (err, data) => {
+    Actions.manageTeamAction.saveTeam(payload, (err) => {
       if(err) {
-
         return Actions.notificationAction.error(`Failed to create team. Reason: ${err.message}`);
       }
       Actions.notificationAction.information('Team creation success');
