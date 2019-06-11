@@ -7,7 +7,7 @@
     fontSize: 20;
 }
 .error {
-    color: darkred;
+    color: red;
 }
 .information {
     color: white;

@@ -108,7 +108,7 @@ export default class ManageTeam extends Component {
             { this._renderMatches(matches) }
           </Select>
         </FormControl>
-        { lastModifiedChip ? (<Chip color="primary" variant="outlined" label={ `Last Modified At: ${lastModifiedChip}` } className="last-modified-by" />) : null }
+        { lastModifiedChip ? (<Chip color="primary" variant="outlined" label={ `Updated ${lastModifiedChip}` } className="last-modified-by" />) : null }
       </div>
     );
   }
